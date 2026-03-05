@@ -9,10 +9,9 @@ import Foundation
 import Combine
 
 final class AlbumsViewModel: ObservableObject {
-    @Published var albums: [Album] = [
-        
-        Album(name: "Taylor Swift", year: "2006"),
-        Album(name: "Fearless", year: "2008"),
-        Album(name: "Speak Now", year: "2010")
-    ]
+    @Published var albums: [Album] = []
+    
+    init() {
+        albums = loadAlbums()
+    }
 }

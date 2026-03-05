@@ -15,7 +15,23 @@ struct AlbumsView: View {
         NavigationStack {
             List(viewModel.albums) { album in
                 NavigationLink(destination: AlbumDetailView(album: album)) {
-                    Text(album.name)
+                    
+                    HStack {
+                        Image(album.cover)
+                            .resizable()
+                            .frame(width: 55, height: 55)
+                            .clipShape(RoundedRectangle(cornerRadius: 8))
+                            .shadow(radius: 2)
+                        
+                        VStack(alignment: .leading) {
+                            Text(album.name)
+                                .font(.headline)
+                            
+                            Text("\(album.year)")
+                                .font(.caption)
+                                .foregroundStyle(.secondary)
+                        }
+                    }
                 }
             }
         }
