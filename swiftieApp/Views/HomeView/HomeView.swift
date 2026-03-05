@@ -10,8 +10,8 @@ import SwiftUI
 struct HomeView: View {
     var body: some View {
         ZStack {
-            Color.orange.opacity(0.1)
-                .ignoresSafeArea(.all)
+//            Color.orange.opacity(0.25)
+//                .ignoresSafeArea(.all)
                 
             ScrollView {
                 VStack(alignment: .leading, spacing: 32) {

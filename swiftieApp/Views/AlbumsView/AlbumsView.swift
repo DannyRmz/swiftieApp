@@ -15,7 +15,7 @@ struct AlbumsView: View {
         NavigationStack {
             List(viewModel.albums) { album in
                 NavigationLink(destination: AlbumDetailView(album: album)) {
-                    HStack {
+                    HStack(spacing: 16) {
                         Image(album.cover)
                             .resizable()
                             .frame(width: 55, height: 55)

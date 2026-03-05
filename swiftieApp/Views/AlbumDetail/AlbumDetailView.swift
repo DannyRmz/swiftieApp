@@ -14,7 +14,7 @@ struct AlbumDetailView: View {
         var body: some View {
             List {
                 Section {
-                    HStack {
+                    HStack(spacing: 16) {
                         Image(album.cover)
                             .resizable()
                             .scaledToFit()
