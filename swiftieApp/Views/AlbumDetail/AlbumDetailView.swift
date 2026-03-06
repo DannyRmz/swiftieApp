@@ -35,7 +35,7 @@ struct AlbumDetailView: View {
                 
                 Section("Songs") {
                     ForEach(album.songs) { song in
-                        NavigationLink(destination: SongsDetailView(song: song, album: album)) {
+                        NavigationLink(destination: SongsDetailView(viewModel: SongsDetailViewModel(song: song, album: album))) {
                             HStack(spacing: 16) {
                                 
                                 Text("\(song.trackNumber)")
@@ -64,6 +64,6 @@ struct AlbumDetailView: View {
 
 #Preview {
     NavigationStack {
-        AlbumDetailView(album: Album.init(id: 1, name: "folklore", year: "2020", cover: "folklore", songs: [ Song.init(id: 1, trackNumber: 1, name: "the 1", duration: "3:30", cover: nil)]))
+        AlbumDetailView(album: Album.init(id: 1, name: "folklore", year: "2020", cover: "folklore", songs: [ Song.init(id: 1, trackNumber: 1, name: "the 1", duration: "3:30", cover: nil, lyricsFile: nil)]))
     }
 }

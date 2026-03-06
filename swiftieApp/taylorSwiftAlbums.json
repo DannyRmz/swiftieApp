@@ -7,7 +7,7 @@
       "year": "2006",
       "cover": "taylorSwift",
       "songs": [
-        { "id": 1, "trackNumber": 1, "name": "Tim McGraw", "duration": "3:52" },
+        { "id": 1, "trackNumber": 1, "name": "Tim McGraw", "duration": "3:52", "lyricsFile": "timMcgraw" },
         { "id": 2, "trackNumber": 2, "name": "Picture to Burn", "duration": "2:53" },
         { "id": 3, "trackNumber": 3, "name": "Teardrops on My Guitar", "duration": "3:23" },
         { "id": 4, "trackNumber": 4, "name": "A Place in This World", "duration": "3:19" },

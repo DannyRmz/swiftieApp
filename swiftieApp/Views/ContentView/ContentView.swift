@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @StateObject private var viewModel = AlbumsViewModel()
+    
     var body: some View {
         TabView {
             Tab("Home", systemImage: "house.fill") {
@@ -23,6 +26,13 @@ struct ContentView: View {
                     AlbumsView()
                         .navigationTitle("Albums")
 
+                }
+            }
+            
+            Tab("Search", systemImage: "magnifyingglass") {
+                NavigationStack {
+                    SearchView(viewModel: viewModel)
+                        .navigationTitle("Search")
                 }
             }
         }

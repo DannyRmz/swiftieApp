@@ -24,4 +24,5 @@ struct Song: Codable, Identifiable {
     let name: String
     let duration: String
     let cover: String?
+    let lyricsFile: String?
 }
