@@ -14,3 +14,4 @@ func loadLyrics(fileName: String) -> String {
     
     return (try? String(contentsOf: url, encoding: .utf8)) ?? ""
 }
+

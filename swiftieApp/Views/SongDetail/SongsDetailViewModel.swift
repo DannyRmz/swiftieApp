@@ -18,7 +18,7 @@ final class SongsDetailViewModel: ObservableObject {
     init(song: Song, album: Album) {
         self.song = song
         self.album = album
-        loadLyrics()
+        //loadLyrics()
     }
     
     private func loadLyrics() {
@@ -30,3 +30,4 @@ final class SongsDetailViewModel: ObservableObject {
         lyrics = swiftieApp.loadLyrics(fileName: file)
     }
 }
+
