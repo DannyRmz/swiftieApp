@@ -23,9 +23,13 @@ struct SongsDetailView: View {
                             .clipShape(RoundedRectangle(cornerRadius: 8))
                             .shadow(radius: 2)
                         
-                        Text("\(viewModel.song.name)")
-                            .font(.title2)
-                            .bold()
+                        VStack(alignment: .leading) {
+                            Text("\(viewModel.song.name)")
+                                .font(.title2)
+                                .bold()
+                            Text(viewModel.song.artists?.joined(separator: ", ") ?? "")
+                                .foregroundStyle(.secondary)
+                        }
                     }
                 }
             }

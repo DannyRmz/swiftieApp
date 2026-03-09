@@ -6,21 +6,22 @@
       "name": "Taylor Swift",
       "year": "2006",
       "cover": "taylorSwift",
+      "artist": "Taylor Swift",
       "songs": [
-        { "id": 1, "trackNumber": 1, "name": "Tim McGraw", "duration": "3:52", "lyricsFile": "timMcgraw" },
-        { "id": 2, "trackNumber": 2, "name": "Picture to Burn", "duration": "2:53" },
-        { "id": 3, "trackNumber": 3, "name": "Teardrops on My Guitar", "duration": "3:23" },
-        { "id": 4, "trackNumber": 4, "name": "A Place in This World", "duration": "3:19" },
-        { "id": 5, "trackNumber": 5, "name": "Cold As You", "duration": "3:59" },
-        { "id": 6, "trackNumber": 6, "name": "The Outside", "duration": "3:27" },
-        { "id": 7, "trackNumber": 7, "name": "Tied Together with a Smile", "duration": "4:08" },
-        { "id": 8, "trackNumber": 8, "name": "Stay Beautiful", "duration": "3:56" },
-        { "id": 9, "trackNumber": 9, "name": "Should've Said No", "duration": "4:02" },
-        { "id": 10, "trackNumber": 10, "name": "Mary's Song (Oh My My My)", "duration": "3:33" },
-        { "id": 11, "trackNumber": 11, "name": "Our Song", "duration": "3:21" },
-        { "id": 12, "trackNumber": 12, "name": "I'm Only Me When I'm With You", "duration": "3:33" },
-        { "id": 13, "trackNumber": 13, "name": "Invisible", "duration": "3:23" },
-        { "id": 14, "trackNumber": 14, "name": "A Perfectly Good Heart", "duration": "3:40" }
+        { "id": 1, "trackNumber": 1, "name": "Tim McGraw", "lyricsFile": "timMcgraw", "artists": ["Taylor Swift"] },
+        { "id": 2, "trackNumber": 2, "name": "Picture to Burn", "artists": ["Taylor Swift"] },
+        { "id": 3, "trackNumber": 3, "name": "Teardrops on My Guitar", "artists": ["Taylor Swift"] },
+        { "id": 4, "trackNumber": 4, "name": "A Place in This World", "artists": ["Taylor Swift"] },
+        { "id": 5, "trackNumber": 5, "name": "Cold As You", "artists": ["Taylor Swift"] },
+        { "id": 6, "trackNumber": 6, "name": "The Outside", "artists": ["Taylor Swift"] },
+        { "id": 7, "trackNumber": 7, "name": "Tied Together with a Smile", "artists": ["Taylor Swift"] },
+        { "id": 8, "trackNumber": 8, "name": "Stay Beautiful", "artists": ["Taylor Swift"] },
+        { "id": 9, "trackNumber": 9, "name": "Should've Said No", "artists": ["Taylor Swift"] },
+        { "id": 10, "trackNumber": 10, "name": "Mary's Song (Oh My My My)", "artists": ["Taylor Swift"] },
+        { "id": 11, "trackNumber": 11, "name": "Our Song", "artists": ["Taylor Swift"] },
+        { "id": 12, "trackNumber": 12, "name": "I'm Only Me When I'm With You", "artists": ["Taylor Swift"] },
+        { "id": 13, "trackNumber": 13, "name": "Invisible", "artists": ["Taylor Swift"] },
+        { "id": 14, "trackNumber": 14, "name": "A Perfectly Good Heart", "artists": ["Taylor Swift"] }
       ]
     },
     {
@@ -28,26 +29,27 @@
       "name": "Fearless",
       "year": "2008",
       "cover": "fearless",
+      "artist": "Taylor Swift",
       "songs": [
-        { "id": 1, "trackNumber": 1, "name": "Fearless", "duration": "4:02" },
-        { "id": 2, "trackNumber": 2, "name": "Fifteen", "duration": "4:54" },
-        { "id": 3, "trackNumber": 3, "name": "Love Story", "duration": "3:53" },
-        { "id": 4, "trackNumber": 4, "name": "Hey Stephen", "duration": "4:14" },
-        { "id": 5, "trackNumber": 5, "name": "White Horse", "duration": "3:53" },
-        { "id": 6, "trackNumber": 6, "name": "You Belong With Me", "duration": "3:50" },
-        { "id": 7, "trackNumber": 7, "name": "Breathe", "duration": "4:23" },
-        { "id": 8, "trackNumber": 8, "name": "Tell Me Why", "duration": "3:20" },
-        { "id": 9, "trackNumber": 9, "name": "You're Not Sorry", "duration": "4:21" },
-        { "id": 10, "trackNumber": 10, "name": "The Way I Loved You", "duration": "4:04" },
-        { "id": 11, "trackNumber": 11, "name": "Forever & Always", "duration": "3:45" },
-        { "id": 12, "trackNumber": 12, "name": "The Best Day", "duration": "4:05" },
-        { "id": 13, "trackNumber": 13, "name": "Change", "duration": "4:38" },
-        { "id": 14, "trackNumber": 14, "name": "Jump Then Fall", "duration": "3:57", "cover": "fearlessPE" },
-        { "id": 15, "trackNumber": 15, "name": "Untouchable", "duration": "5:11", "cover": "fearlessPE" },
-        { "id": 16, "trackNumber": 11, "name": "Forever & Always (Piano Version)", "duration": "4:27", "cover": "fearlessPE" },
-        { "id": 17, "trackNumber": 16, "name": "Come In With The Rain", "duration": "3:58", "cover": "fearlessPE" },
-        { "id": 18, "trackNumber": 17, "name": "Superstar", "duration": "4:21", "cover": "fearlessPE" },
-        { "id": 19, "trackNumber": 18, "name": "The Other Side Of The Door", "duration": "3:57", "cover": "fearlessPE" }
+        { "id": 1, "trackNumber": 1, "name": "Fearless", "artists": ["Taylor Swift"] },
+        { "id": 2, "trackNumber": 2, "name": "Fifteen", "artists": ["Taylor Swift"] },
+        { "id": 3, "trackNumber": 3, "name": "Love Story", "artists": ["Taylor Swift"] },
+        { "id": 4, "trackNumber": 4, "name": "Hey Stephen", "artists": ["Taylor Swift"] },
+        { "id": 5, "trackNumber": 5, "name": "White Horse", "artists": ["Taylor Swift"] },
+        { "id": 6, "trackNumber": 6, "name": "You Belong With Me", "artists": ["Taylor Swift"] },
+        { "id": 7, "trackNumber": 7, "name": "Breathe", "artists": ["Taylor Swift", "Colbie Caillat"] },
+        { "id": 8, "trackNumber": 8, "name": "Tell Me Why", "artists": ["Taylor Swift"] },
+        { "id": 9, "trackNumber": 9, "name": "You're Not Sorry", "artists": ["Taylor Swift"] },
+        { "id": 10, "trackNumber": 10, "name": "The Way I Loved You", "artists": ["Taylor Swift"] },
+        { "id": 11, "trackNumber": 11, "name": "Forever & Always", "artists": ["Taylor Swift"] },
+        { "id": 12, "trackNumber": 12, "name": "The Best Day", "artists": ["Taylor Swift"] },
+        { "id": 13, "trackNumber": 13, "name": "Change", "artists": ["Taylor Swift"] },
+        { "id": 14, "trackNumber": 14, "name": "Jump Then Fall", "cover": "fearlessPE", "artists": ["Taylor Swift"] },
+        { "id": 15, "trackNumber": 15, "name": "Untouchable", "cover": "fearlessPE", "artists": ["Taylor Swift"] },
+        { "id": 16, "trackNumber": 11, "name": "Forever & Always (Piano Version)", "cover": "fearlessPE", "artists": ["Taylor Swift"] },
+        { "id": 17, "trackNumber": 16, "name": "Come In With The Rain", "cover": "fearlessPE", "artists": ["Taylor Swift"] },
+        { "id": 18, "trackNumber": 17, "name": "Superstar", "cover": "fearlessPE", "artists": ["Taylor Swift"] },
+        { "id": 19, "trackNumber": 18, "name": "The Other Side Of The Door", "cover": "fearlessPE", "artists": ["Taylor Swift"] }
       ]
     },
     {
@@ -55,10 +57,11 @@
       "name": "Speak Now",
       "year": "2010",
       "cover": "speakNow",
+      "artist": "Taylor Swift",
       "songs": [
-        { "id": 1, "trackNumber": 1, "name": "Mine", "duration": "3:50" },
-        { "id": 2, "trackNumber": 2, "name": "Sparks Fly", "duration": "4:20" },
-        { "id": 3, "trackNumber": 3, "name": "Back to December", "duration": "4:53" }
+        { "id": 1, "trackNumber": 1, "name": "Mine", "artists": ["Taylor Swift"] },
+        { "id": 2, "trackNumber": 2, "name": "Sparks Fly", "artists": ["Taylor Swift"] },
+        { "id": 3, "trackNumber": 3, "name": "Back to December", "artists": ["Taylor Swift"] }
       ]
     },
     {
@@ -66,10 +69,11 @@
       "name": "Red",
       "year": "2012",
       "cover": "red",
+      "artist": "Taylor Swift",
       "songs": [
-        { "id": 1, "trackNumber": 1, "name": "State of Grace", "duration": "4:55" },
-        { "id": 2, "trackNumber": 2, "name": "Red", "duration": "3:43" },
-        { "id": 3, "trackNumber": 3, "name": "I Knew You Were Trouble", "duration": "3:39" }
+        { "id": 1, "trackNumber": 1, "name": "State of Grace", "artists": ["Taylor Swift"] },
+        { "id": 2, "trackNumber": 2, "name": "Red", "artists": ["Taylor Swift"] },
+        { "id": 3, "trackNumber": 3, "name": "I Knew You Were Trouble", "artists": ["Taylor Swift"] }
       ]
     },
     {
@@ -77,10 +81,11 @@
       "name": "1989",
       "year": "2014",
       "cover": "1989",
+      "artist": "Taylor Swift",
       "songs": [
-        { "id": 1, "trackNumber": 1, "name": "Welcome to New York", "duration": "3:32" },
-        { "id": 2, "trackNumber": 2, "name": "Blank Space", "duration": "3:51" },
-        { "id": 3, "trackNumber": 3, "name": "Style", "duration": "3:51" }
+        { "id": 1, "trackNumber": 1, "name": "Welcome to New York", "artists": ["Taylor Swift"] },
+        { "id": 2, "trackNumber": 2, "name": "Blank Space", "artists": ["Taylor Swift"] },
+        { "id": 3, "trackNumber": 3, "name": "Style", "artists": ["Taylor Swift"] }
       ]
     },
     {
@@ -88,10 +93,11 @@
       "name": "Reputation",
       "year": "2017",
       "cover": "reputation",
+      "artist": "Taylor Swift",
       "songs": [
-        { "id": 1, "trackNumber": 1, "name": "...Ready For It?", "duration": "3:28" },
-        { "id": 2, "trackNumber": 2, "name": "End Game", "duration": "4:04" },
-        { "id": 3, "trackNumber": 3, "name": "Delicate", "duration": "3:52" }
+        { "id": 1, "trackNumber": 1, "name": "...Ready For It?", "artists": ["Taylor Swift"] },
+        { "id": 2, "trackNumber": 2, "name": "End Game", "artists": ["Taylor Swift", "Ed Sheeran", "Future"] },
+        { "id": 3, "trackNumber": 3, "name": "Delicate", "artists": ["Taylor Swift"] }
       ]
     },
     {
@@ -99,10 +105,11 @@
       "name": "Lover",
       "year": "2019",
       "cover": "lover",
+      "artist": "Taylor Swift",
       "songs": [
-        { "id": 1, "trackNumber": 1, "name": "I Forgot That You Existed", "duration": "2:50" },
-        { "id": 2, "trackNumber": 2, "name": "Cruel Summer", "duration": "2:58" },
-        { "id": 3, "trackNumber": 3, "name": "Lover", "duration": "3:41" }
+        { "id": 1, "trackNumber": 1, "name": "I Forgot That You Existed", "artists": ["Taylor Swift"] },
+        { "id": 2, "trackNumber": 2, "name": "Cruel Summer", "artists": ["Taylor Swift"] },
+        { "id": 3, "trackNumber": 3, "name": "Lover", "artists": ["Taylor Swift"] }
       ]
     },
     {
@@ -110,10 +117,11 @@
       "name": "Folklore",
       "year": "2020",
       "cover": "folklore",
+      "artist": "Taylor Swift",
       "songs": [
-        { "id": 1, "trackNumber": 1, "name": "the 1", "duration": "3:30" },
-        { "id": 2, "trackNumber": 2, "name": "cardigan", "duration": "3:59" },
-        { "id": 3, "trackNumber": 3, "name": "the last great american dynasty", "duration": "3:51" }
+        { "id": 1, "trackNumber": 1, "name": "the 1", "artists": ["Taylor Swift"] },
+        { "id": 2, "trackNumber": 2, "name": "cardigan", "artists": ["Taylor Swift"] },
+        { "id": 3, "trackNumber": 3, "name": "the last great american dynasty", "artists": ["Taylor Swift"] }
       ]
     },
     {
@@ -121,10 +129,11 @@
       "name": "Evermore",
       "year": "2020",
       "cover": "evermore",
+      "artist": "Taylor Swift",
       "songs": [
-        { "id": 1, "trackNumber": 1, "name": "willow", "duration": "3:34" },
-        { "id": 2, "trackNumber": 2, "name": "champagne problems", "duration": "4:04" },
-        { "id": 3, "trackNumber": 3, "name": "gold rush", "duration": "3:05" }
+        { "id": 1, "trackNumber": 1, "name": "willow", "artists": ["Taylor Swift"] },
+        { "id": 2, "trackNumber": 2, "name": "champagne problems", "artists": ["Taylor Swift"] },
+        { "id": 3, "trackNumber": 3, "name": "gold rush", "artists": ["Taylor Swift"] }
       ]
     },
     {
@@ -132,11 +141,13 @@
       "name": "Midnights",
       "year": "2022",
       "cover": "midnights",
+      "artist": "Taylor Swift",
       "songs": [
-        { "id": 1, "trackNumber": 1, "name": "Lavender Haze", "duration": "3:22" },
-        { "id": 2, "trackNumber": 2, "name": "Maroon", "duration": "3:38" },
-        { "id": 3, "trackNumber": 3, "name": "Anti-Hero", "duration": "3:20" }
+        { "id": 1, "trackNumber": 1, "name": "Lavender Haze", "artists": ["Taylor Swift"] },
+        { "id": 2, "trackNumber": 2, "name": "Maroon", "artists": ["Taylor Swift"] },
+        { "id": 3, "trackNumber": 3, "name": "Anti-Hero", "artists": ["Taylor Swift"] }
       ]
     }
   ]
 }
+

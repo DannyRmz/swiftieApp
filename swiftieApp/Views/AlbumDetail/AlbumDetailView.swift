@@ -49,9 +49,10 @@ struct AlbumDetailView: View {
                                 
                                 VStack(alignment: .leading) {
                                     Text(song.name)
-                                    Text(song.duration)
+                                    Text(song.artists?.joined(separator: ", ") ?? "")
                                         .font(.caption)
                                         .foregroundStyle(.secondary)
+
                                 }
                             }
                         }
@@ -64,6 +65,6 @@ struct AlbumDetailView: View {
 
 #Preview {
     NavigationStack {
-        AlbumDetailView(album: Album.init(id: 1, name: "folklore", year: "2020", cover: "folklore", songs: [ Song.init(id: 1, trackNumber: 1, name: "the 1", duration: "3:30", cover: nil, lyricsFile: nil)]))
+        AlbumDetailView(album: Album.init(id: 1, name: "folklore", year: "2020", cover: "folklore", artist: "Taylor Swift", songs: [ Song.init(id: 1, trackNumber: 1, name: "the 1", cover: nil, lyricsFile: "timMcgraw", artists: [])]))
     }
 }

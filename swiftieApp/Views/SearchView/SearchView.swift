@@ -27,9 +27,9 @@ struct SearchView: View {
                     VStack(alignment: .leading, spacing: 4) {
                         Text(song.name)
                         
-                        Text(song.duration)
-                            .font(.caption)
-                            .foregroundStyle(.secondary)
+//                        Text(song.artists?)
+//                            .font(.caption)
+//                            .foregroundStyle(.secondary)
                         
                         if let snippetText = lyricSnippetText(for: song) {
                             snippetText

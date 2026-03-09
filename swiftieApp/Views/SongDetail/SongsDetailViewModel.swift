@@ -18,7 +18,7 @@ final class SongsDetailViewModel: ObservableObject {
     init(song: Song, album: Album) {
         self.song = song
         self.album = album
-        //loadLyrics()
+        loadLyrics()
     }
     
     private func loadLyrics() {
