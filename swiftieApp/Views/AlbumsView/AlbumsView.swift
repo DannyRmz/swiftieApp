@@ -9,7 +9,7 @@ import SwiftUI
 
 struct AlbumsView: View {
     
-    @StateObject var viewModel = AlbumsViewModel()
+    @ObservedObject var viewModel = AlbumsViewModel()
     
     var body: some View {
         List(viewModel.albums) { album in

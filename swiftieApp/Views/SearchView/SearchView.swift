@@ -13,7 +13,7 @@ struct SearchView: View {
     
     var body: some View {
         List(viewModel.filteredSongs) { song in
-            NavigationLink(destination: LyricsView(song: song)) {
+            NavigationLink(destination: SongsDetailView(viewModel: SongsDetailViewModel(song: song, album: viewModel.album(for: song)))) {
                 HStack(spacing: 16) {
                     
                     Text("\(song.trackNumber)")
@@ -27,9 +27,9 @@ struct SearchView: View {
                     VStack(alignment: .leading, spacing: 4) {
                         Text(song.name)
                         
-//                        Text(song.artists?)
-//                            .font(.caption)
-//                            .foregroundStyle(.secondary)
+                        Text(song.artists?.joined(separator: ", ") ?? "")
+                            .font(.caption)
+                            .foregroundStyle(.secondary)
                         
                         if let snippetText = lyricSnippetText(for: song) {
                             snippetText

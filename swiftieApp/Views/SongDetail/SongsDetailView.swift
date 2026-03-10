@@ -9,7 +9,7 @@ import SwiftUI
 
 struct SongsDetailView: View {
     
-    @StateObject var viewModel: SongsDetailViewModel
+    @ObservedObject var viewModel: SongsDetailViewModel
     
     var body: some View {
         List {

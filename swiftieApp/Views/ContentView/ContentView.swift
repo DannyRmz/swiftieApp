@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     
-    @StateObject private var viewModel = AlbumsViewModel()
+    @ObservedObject private var viewModel = AlbumsViewModel()
     
     var body: some View {
         TabView {

@@ -12,7 +12,7 @@ struct LyricsView: View {
     let song: Song
     
     var body: some View {
-        //Text("\(song.name)")
+        Text("\(song.name)")
         Text("Hola")
     }
 }

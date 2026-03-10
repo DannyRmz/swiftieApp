@@ -35,4 +35,11 @@ final class AlbumsViewModel: ObservableObject {
             return lyrics.localizedCaseInsensitiveContains(searchText)
         }
     }
+    
+    func album(for song: Song) -> Album {
+        albums.first { album in
+            album.songs.contains { $0.id == song.id }
+        }!
+    }
+    
 }
